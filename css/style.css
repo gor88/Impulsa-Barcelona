@@ -49,6 +49,28 @@ h1, h2, h3, h4, h5,
 .color-white-opacity-5 {
   color: rgba(255, 255, 255, 0.5); }
 
+
+  .fullscreen-bg {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    }
+
+    .fullscreen-bg__video {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    }
+
+    .first {
+      margin-top:25%;
+    }
+
 body:after {
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
