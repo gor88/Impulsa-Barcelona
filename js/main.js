@@ -212,11 +212,16 @@ jQuery(document).ready(function($) {
       e.preventDefault();
 
       var hash = this.hash;
+      var top = $(hash).offset().top - $('.site-navbar').height();
+      if (top < 0) {
+      	top = 0;
+      }
+
 
       $('html, body').animate({
-        'scrollTop': $(hash).offset().top
+        'scrollTop': top
       }, 600, 'easeInOutExpo', function(){
-        window.location.hash = hash;
+        //window.location.hash = hash;
       });
 
     });

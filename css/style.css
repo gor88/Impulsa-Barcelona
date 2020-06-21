@@ -1,7 +1,5 @@
 /* Header */
 
-.logobcn{
-}
 
 /* Base */
 html {
@@ -114,6 +112,7 @@ body:after {
 .line-height-1 {
   line-height: 1 !important; }
 
+
 .bg-black {
   background: #000; }
 
@@ -126,9 +125,12 @@ body:after {
   .form-control:hover, .form-control:active, .form-control:focus {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
+.text{
+  color: #DEDEDE;
+}
 
 .site-section {
-  padding: 2.5em 0;
+  padding: 4.7em;
 }
   @media (min-width: 768px) {
     .site-section {
@@ -180,6 +182,12 @@ body:after {
 
 .text-black-opacity-05 {
   color: rgba(0, 0, 0, 0.5); }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .hover-bg-enlarge {
   overflow: hidden;
@@ -461,7 +469,9 @@ body:after {
           margin-top: 0px;
           visibility: visible;
           opacity: 1; }
-
+.icon{
+  color: white;
+}
 .site-mobile-menu {
   width: 300px;
   position: fixed;
@@ -618,7 +628,7 @@ body:after {
     .sticky-wrapper .site-navbar .site-menu > li > a:hover, .sticky-wrapper .site-navbar .site-menu > li > a.active {
       color: #fff !important; }
   .sticky-wrapper.is-sticky .site-navbar {
-    background: #000;
+    background: #35363A;
     border-bottom: 1px solid transparent;
     -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1); }
@@ -631,9 +641,9 @@ body:after {
     .sticky-wrapper.is-sticky .site-navbar .site-logo a {
       color: #000; }
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
-      color: #000 !important; }
+      color: #fff !important; }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover, .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-        color: #C2E54F !important; }
+        color: #43F596 !important; }
   .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
@@ -686,6 +696,7 @@ body:after {
 .section-title {
   position: relative;
   padding-bottom: 20px;
+  margin-bottom: 0.7em;
   color: #ffffff;
 }
   .section-title:after {
@@ -694,7 +705,7 @@ body:after {
     bottom: 0;
     left: 0;
     height: 2px;
-    background: #C2E54F;
+    background: #43F596;
     width: 50px; }
   .section-title.text-center:after {
     left: 50%;
@@ -1063,5 +1074,5 @@ body:after {
       color: #000; }
 
 body {
-  background-color: black;
+  background-color: #35363A;
 }
