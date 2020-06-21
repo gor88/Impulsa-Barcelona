@@ -24,7 +24,22 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+
+
+</style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
@@ -84,59 +99,56 @@
 
     <!-- <div class="site-blocks-cover overlay bg-light" style="background-image: url('images/hero_bg_1.jpg'); " id="home-section"> -->
 
+          <div class="col-12" id="inicio-section">
+            <div class="row justify-content-center">
 
-      <div class="container" id="inicio-section">
+                    <video loop muted autoplay class="mx-auto d-block" id="myVideo">
+                      <source src="video/impulsabcn.mp4" type="video/mp4">
+                    </video>
+
+            </div>
+          </div>
+
+      <!--<div class="container" id="inicio-section">
         <div class="row justify-content-center claim">
 
           <div class="col-12 text-center align-self-center text-intro">
             <div class="row justify-content-center">
               <div class="col-lg-8">
-                <h1 class="text-black slogan" data-aos="fade-up" data-aos-delay="">La energía que te impulsa</h1>
+                <h1 class="text-white slogan" data-aos="fade-up" data-aos-delay="">La energía que te impulsa</h1>-->
                 <!--<p class="lead text-white" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos magnam maxime voluptates libero, nobis impedit aut corrupti sunt possimus.</p>
-                <p data-aos="fade-up" data-aos-delay="200"><a href="#services-section" class="btn smoothscroll btn-primary">Our Services</a></p>-->
+                <p data-aos="fade-up" data-aos-delay="200"><a href="#services-section" class="btn smoothscroll btn-primary">Our Services</a></p>
 
               </div>
             </div>
           </div>
-
-          <div class="col-12">
-            <div>
-            <video loop controls autoplay class="mx-auto d-block" id="play">
-              <source src="video/impulsabcn.mp4" type="video/mp4">
-            </video>
-          </div>
-          </div>
-
         </div>
-      </div>
-
-    </div>
+      </div> -->
 
 
 
     <div class="site-section" id="about-section">
-      <div class="container">
-        <div class="row ">
-          <div class="col-12 mb-4 position-relative">
-            <h2 class="section-title">Funcionamiento</h2>
-          </div>
-          <div class="col-lg-6">
-            <p>El S-PARK convierte la energía producida por las personas en sus bicicletas, en electricidad para su propio vecindario.</p>
-            <p>Gracias a su sistema de rueda delantera, esta almacena la energía generada durante el ciclo y el frenado en baterías. Y al final del día, cuando todos regresan a casa y estacionan su bicicleta, la energía se redistribuye a la red eléctrica del vecindario, proporcionando suficiente electricidad limpia.</p>
 
+        <div class="col-12">
+          <h2 class="section-title">Funcionamiento</h2>
+
+          <div class="row">
+            <div class="col-6">
+              <p>El S-PARK convierte la energía producida por las personas en sus bicicletas, en electricidad para su propio vecindario.</p>
+              <p>Gracias a su sistema de rueda delantera, esta almacena la energía generada durante el ciclo y el frenado en baterías. Y al final del día, cuando todos regresan a casa y estacionan su bicicleta, la energía se redistribuye a la red eléctrica del vecindario, proporcionando suficiente electricidad limpia.</p>
+
+            </div>
+            <div class="col-6">
+              <img src="images/about.jpg" alt="Image" class="img-fluid float-right">
+            </div>
           </div>
-          <div class="col-lg-6">
-            <img src="images/about.jpg" alt="Image" class="img-fluid float-right">
-          </div>
+        </div>
+          
           <!--<div class="col-lg-4">
             <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 
             <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.</p>
           </div> -->
-
-
-        </div>
-      </div>
     </div>
 
 
@@ -603,12 +615,5 @@
 
 
   <script src="js/main.js"></script>
-  <!--
-  <script type="text/javascript">
-    function stop() {
-      document.getElementById("play").pause();  
-    }-->
-    
-  </script>
   </body>
 </html>

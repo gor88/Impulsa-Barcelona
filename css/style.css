@@ -1,7 +1,6 @@
 /* Header */
 
 .logobcn{
-
 }
 
 /* Base */
@@ -129,12 +128,15 @@ body:after {
     box-shadow: none !important; }
 
 .site-section {
-  padding: 2.5em 0; }
+  padding: 2.5em 0;
+}
   @media (min-width: 768px) {
     .site-section {
-      padding: 7em 0; } }
+    }
+  }
   .site-section.site-section-sm {
-    padding: 4em 0; }
+    padding: 4em 0;
+  }
 
 .site-section-heading {
   padding-bottom: 20px;
@@ -220,6 +222,10 @@ body:after {
   .bg-image > .container {
     position: relative;
     z-index: 1; }
+
+#myVideo {
+  min-width: 100%; 
+}
 
 @media (max-width: 991.98px) {
   .img-md-fluid {
@@ -329,7 +335,6 @@ body:after {
   top: 0;
   width: 100%;
   border-bottom: rgba(255, 255, 255, 0.7);
-  background-color: black;
 }
   .site-navbar .site-logo {
     font-size: 1.5rem; }
@@ -602,7 +607,8 @@ body:after {
   .sticky-wrapper .site-navbar {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
-    transition: .3s all ease; }
+    transition: .3s all ease;
+  }
   .sticky-wrapper .site-navbar .site-menu-toggle {
     color: #fff; }
   .sticky-wrapper .site-navbar .site-logo a {
@@ -612,7 +618,7 @@ body:after {
     .sticky-wrapper .site-navbar .site-menu > li > a:hover, .sticky-wrapper .site-navbar .site-menu > li > a.active {
       color: #fff !important; }
   .sticky-wrapper.is-sticky .site-navbar {
-    background: #fff;
+    background: #000;
     border-bottom: 1px solid transparent;
     -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1); }
@@ -630,7 +636,8 @@ body:after {
         color: #C2E54F !important; }
   .sticky-wrapper .shrink {
     padding-top: 10px !important;
-    padding-bottom: 10px !important; }
+    padding-bottom: 10px !important;
+  }
 
 /* Blocks */
 .site-blocks-cover {
@@ -678,7 +685,9 @@ body:after {
 
 .section-title {
   position: relative;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  color: #ffffff;
+}
   .section-title:after {
     content: "";
     position: absolute;
@@ -1053,6 +1062,6 @@ body:after {
     .footer a:hover {
       color: #000; }
 
-.claim {
-  padding-top: 250px;
+body {
+  background-color: black;
 }
