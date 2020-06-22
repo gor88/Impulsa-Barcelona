@@ -239,8 +239,21 @@ body:after {
 
 #myVideo {
   min-width: 100%; 
+  z-index: 0;
 }
 
+#cta {
+  margin: auto;
+  z-index: 10;
+}
+
+.content {
+  position: fixed;
+  bottom: 50%;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
 
 @media (max-width: 991.98px) {
   .img-md-fluid {
@@ -722,6 +735,25 @@ body:after {
   .section-title.text-center:after {
     background: #43F596; }
 
+#text-intro-promo{
+  #ModalContacto {
+  height: 300px;
+  width: 60%;
+  background-color: orangered;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background: chocolate;
+}
+  margin: auto;
+  position: absolute;
+  z-index: 100;
+
+}
+
 .position-relative {
   position: relative; }
 
@@ -1092,7 +1124,6 @@ body {
   height: 60px;
   margin: 0 auto;
   position: relative;
-  top: 50%;
   transform: translateY(-50%);
   width: 320px;
 }
@@ -1101,7 +1132,7 @@ body {
   fill: transparent;
   stroke-dasharray: 140 540;
   stroke-dashoffset: -474;
-  stroke-width: 8px;
+  stroke-width: 4px;
   stroke: #43F596;
 }
 
@@ -1120,12 +1151,12 @@ body {
   0% {
     stroke-dasharray: 140 540;
     stroke-dashoffset: -474;
-    stroke-width: 8px;
+    stroke-width: 4px;
   }
   100% {
     stroke-dasharray: 760;
     stroke-dashoffset: 0;
-    stroke-width: 2px;
+    stroke-width: 4px;
   }
 }
 
