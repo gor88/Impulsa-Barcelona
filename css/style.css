@@ -1064,7 +1064,6 @@ body:after {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 
 .form .form-control {
-  border: none;
   border-radius: 0px;
   border-bottom: 1px solid #eee; }
   .form .form-control:active, .form .form-control:focus {
